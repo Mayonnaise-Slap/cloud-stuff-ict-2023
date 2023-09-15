@@ -11,7 +11,7 @@
 
 Существует локальная сеть
 
-![qownnotes-media-uDBpoI](media/qownnotes-media-uDBpoI.png)
+![qownnotes-media-QliMqp](media/qownnotes-media-QliMqp.png)
 
 Получается, шаги простые:
 - подключиться к известному ip через ssh (нет, ну а что еще может быть)
