@@ -22,4 +22,4 @@ jobs:
         fi
     - name: Run unittests
       run: |
-        python -m unittest discover ${{ github.head_ref }}
+        python -m unittest discover ${{ github.head_ref }}/src
