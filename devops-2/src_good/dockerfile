@@ -1,0 +1,9 @@
+# bad
+FROM ubuntu-latest
+
+WORKDIR /app
+COPY . .
+RUN npm install
+
+RUN node app.js
+EXPOSE 1:5000
