@@ -1,9 +1,9 @@
-# bad
-FROM ubuntu-latest
+# good
+FROM node:14.17.5-alpine
 
 WORKDIR /app
 COPY . .
 RUN npm install
 
-RUN node app.js
-EXPOSE 1:5000
+ENTRYPOINT ["node","app.js"]
+EXPOSE 3005
