@@ -1,0 +1,10 @@
+# bad
+FROM node:latest
+
+RUN mkdir app
+RUN cd app
+COPY . .
+RUN npm install
+
+CMD ["node","app.js"]
+EXPOSE 3000:3010
