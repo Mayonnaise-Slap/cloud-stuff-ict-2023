@@ -41,7 +41,7 @@ CMD ["node","app.js"] <- cmd так-же не считается лучшей п
 EXPOSE 3000:3010 <- зачем столько портов, если сервис работает на одном..? Тоже плохо так делать
 ```
 
-![img.png](img.png)
+![img.png](attachments/img.png)
 
 ### Хороший
 
@@ -56,7 +56,7 @@ ENTRYPOINT ["node","app.js"] <- Логичный entrypoint
 EXPOSE 3005 <- один конкретный порт
 ```
 
-![img_1.png](img_1.png)
+![img_1.png](attachments/img_1.png)
 
 ### Сравнение контейнеров
 
